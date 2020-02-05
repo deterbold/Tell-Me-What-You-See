@@ -13,7 +13,23 @@
 		4266171923EB6832008CB062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266171723EB6832008CB062 /* Main.storyboard */; };
 		4266171B23EB6833008CB062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4266171A23EB6833008CB062 /* Assets.xcassets */; };
 		4266171E23EB6833008CB062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266171C23EB6833008CB062 /* LaunchScreen.storyboard */; };
+		4266172723EB6946008CB062 /* Tracery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4266172623EB6946008CB062 /* Tracery.framework */; };
+		4266172823EB6946008CB062 /* Tracery.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4266172623EB6946008CB062 /* Tracery.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4266172923EB6946008CB062 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4266172823EB6946008CB062 /* Tracery.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4266170E23EB6832008CB062 /* Tell Me What You See.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tell Me What You See.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +40,8 @@
 		4266171A23EB6833008CB062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4266171D23EB6833008CB062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4266171F23EB6833008CB062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4266172623EB6946008CB062 /* Tracery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tracery.framework; path = Carthage/Build/iOS/Tracery.framework; sourceTree = "<group>"; };
+		4266172C23EB6A13008CB062 /* Tracery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tracery.framework; path = Carthage/Build/iOS/Tracery.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4266172723EB6946008CB062 /* Tracery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +59,10 @@
 		4266170523EB6832008CB062 = {
 			isa = PBXGroup;
 			children = (
+				4266172C23EB6A13008CB062 /* Tracery.framework */,
 				4266171023EB6832008CB062 /* Tell Me What You See */,
 				4266170F23EB6832008CB062 /* Products */,
+				4266172523EB6946008CB062 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +88,14 @@
 			path = "Tell Me What You See";
 			sourceTree = "<group>";
 		};
+		4266172523EB6946008CB062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4266172623EB6946008CB062 /* Tracery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +106,8 @@
 				4266170A23EB6832008CB062 /* Sources */,
 				4266170B23EB6832008CB062 /* Frameworks */,
 				4266170C23EB6832008CB062 /* Resources */,
+				4266172923EB6946008CB062 /* Embed Frameworks */,
+				4266172A23EB695C008CB062 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,6 +163,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4266172A23EB695C008CB062 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Tracery.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4266170A23EB6832008CB062 /* Sources */ = {
@@ -286,6 +338,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NES4E5L6E8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Tell Me What You See/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +360,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NES4E5L6E8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Tell Me What You See/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

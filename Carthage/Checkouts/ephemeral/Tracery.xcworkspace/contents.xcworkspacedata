@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Tracery/Tracery.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Playgrounds">
+      <FileRef
+         location = "group:Playgrounds/Face Generator.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Playgrounds/Tracery.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Playgrounds/Loops.playground">
+      </FileRef>
+   </Group>
+</Workspace>

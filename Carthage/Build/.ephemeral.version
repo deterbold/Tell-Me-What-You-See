@@ -1,0 +1,23 @@
+{
+  "Mac" : [
+    {
+      "name" : "Tracery",
+      "hash" : "e5aec2b1e24071fac98605748280e32c30f538154371c00798ba9f152bb77064",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.3",
+  "iOS" : [
+    {
+      "name" : "Tracery",
+      "hash" : "e480f98347296f5fa44480c73af7d7fc6996f7f0f9177159ce9415d0caf9decc",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

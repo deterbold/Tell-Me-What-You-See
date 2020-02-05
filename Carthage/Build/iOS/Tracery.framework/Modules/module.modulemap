@@ -1,0 +1,11 @@
+framework module Tracery {
+  umbrella header "Tracery.h"
+
+  export *
+  module * { export * }
+}
+
+module Tracery.Swift {
+    header "Tracery-Swift.h"
+    requires objc
+}

@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E48C452220C424C00858E44 /* Kalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E48C451220C424C00858E44 /* Kalk.swift */; };
+		0E48C453220C424C00858E44 /* Kalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E48C451220C424C00858E44 /* Kalk.swift */; };
+		0E71B8372181CF70008F829A /* RandomSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E71B8362181CF70008F829A /* RandomSource.swift */; };
+		0E71B8382181D220008F829A /* RandomSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E71B8362181CF70008F829A /* RandomSource.swift */; };
+		0E77FD3921E4F893002D45C8 /* Tracery.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E77FD3721E4F877002D45C8 /* Tracery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E79B9E7216CA65000359AB3 /* Tracery.JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9E6216CA65000359AB3 /* Tracery.JSON.swift */; };
+		0E79B9E8216CA65000359AB3 /* Tracery.JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9E6216CA65000359AB3 /* Tracery.JSON.swift */; };
+		0E79B9EC216CA66600359AB3 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9EB216CA66600359AB3 /* Modifiers.swift */; };
+		0E79B9ED216CA66600359AB3 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9EB216CA66600359AB3 /* Modifiers.swift */; };
+		0E79B9F1216CA76600359AB3 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9EE216CA6B500359AB3 /* Modifiers.swift */; };
+		0E79B9F2216CA76700359AB3 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9EE216CA6B500359AB3 /* Modifiers.swift */; };
+		0E9D3C38218758CC00C77E64 /* EmptyRulesetDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC01F1E72F2B7008623B8 /* EmptyRulesetDetector.swift */; };
+		0E9D3C39218758CD00C77E64 /* EmptyRulesetDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC01F1E72F2B7008623B8 /* EmptyRulesetDetector.swift */; };
+		0E9D3C3D21875B9900C77E64 /* RandomSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D3C3C21875B9900C77E64 /* RandomSources.swift */; };
+		0E9D3C3E21875B9900C77E64 /* RandomSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D3C3C21875B9900C77E64 /* RandomSources.swift */; };
+		0EEBF3E721C7D3CA00FFFC37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF3E621C7D3CA00FFFC37 /* main.swift */; };
+		0EEBF3EB21C7D3D900FFFC37 /* CyclicReferenceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC01E1E72F2B7008623B8 /* CyclicReferenceIdentifier.swift */; };
+		0EEBF3EC21C7D3D900FFFC37 /* EmptyRulesetDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC01F1E72F2B7008623B8 /* EmptyRulesetDetector.swift */; };
+		0EEBF3ED21C7D3D900FFFC37 /* RuleSelfReferenceIdentifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0241E72F2B7008623B8 /* RuleSelfReferenceIdentifer.swift */; };
+		0EEBF3EE21C7D3D900FFFC37 /* RulesetAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0251E72F2B7008623B8 /* RulesetAnalyser.swift */; };
+		0EEBF3EF21C7D3D900FFFC37 /* TagOverrideRuleIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0261E72F2B7008623B8 /* TagOverrideRuleIdentifier.swift */; };
+		0EEBF3F021C7D3D900FFFC37 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0201E72F2B7008623B8 /* Lexer.swift */; };
+		0EEBF3F121C7D3D900FFFC37 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9EB216CA66600359AB3 /* Modifiers.swift */; };
+		0EEBF3F221C7D3D900FFFC37 /* Parser.Gen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F305B1E869E08005B0808 /* Parser.Gen2.swift */; };
+		0EEBF3F321C7D3D900FFFC37 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0211E72F2B7008623B8 /* Parser.swift */; };
+		0EEBF3F421C7D3D900FFFC37 /* RandomSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E71B8362181CF70008F829A /* RandomSource.swift */; };
+		0EEBF3F521C7D3D900FFFC37 /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF709DE21C54CED0071145F /* RegularExpressions.swift */; };
+		0EEBF3F621C7D3D900FFFC37 /* RuleCandidateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0221E72F2B7008623B8 /* RuleCandidateSelector.swift */; };
+		0EEBF3F721C7D3D900FFFC37 /* RuleCandidatesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0231E72F2B7008623B8 /* RuleCandidatesProvider.swift */; };
+		0EEBF3F821C7D3D900FFFC37 /* TagStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975BB7D1E75C91C0076A1EA /* TagStorage.swift */; };
+		0EEBF3F921C7D3D900FFFC37 /* Tracery.Eval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E7E741E77C6A000C5BD17 /* Tracery.Eval.swift */; };
+		0EEBF3FA21C7D3D900FFFC37 /* Tracery.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0271E72F2B7008623B8 /* Tracery.Logging.swift */; };
+		0EEBF3FB21C7D3D900FFFC37 /* Tracery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0281E72F2B7008623B8 /* Tracery.swift */; };
+		0EEBF3FC21C7D3D900FFFC37 /* Tracery.Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A248E51E817216004D60C9 /* Tracery.Text.swift */; };
+		0EEBF3FD21C7D3D900FFFC37 /* Tracery.JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79B9E6216CA65000359AB3 /* Tracery.JSON.swift */; };
+		0EEBF40621C8F3EA00FFFC37 /* Kalk.Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF3FF21C8F3EA00FFFC37 /* Kalk.Parser.swift */; };
+		0EEBF40721C8F3EA00FFFC37 /* Kalk.Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF3FF21C8F3EA00FFFC37 /* Kalk.Parser.swift */; };
+		0EEBF40A21C8F3EA00FFFC37 /* Kalk.Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF3FF21C8F3EA00FFFC37 /* Kalk.Parser.swift */; };
+		0EEBF40B21C8F3EA00FFFC37 /* Kalk.Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40021C8F3EA00FFFC37 /* Kalk.Nodes.swift */; };
+		0EEBF40C21C8F3EA00FFFC37 /* Kalk.Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40021C8F3EA00FFFC37 /* Kalk.Nodes.swift */; };
+		0EEBF40F21C8F3EA00FFFC37 /* Kalk.Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40021C8F3EA00FFFC37 /* Kalk.Nodes.swift */; };
+		0EEBF41021C8F3EA00FFFC37 /* Kalk.Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40121C8F3EA00FFFC37 /* Kalk.Interpreter.swift */; };
+		0EEBF41121C8F3EA00FFFC37 /* Kalk.Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40121C8F3EA00FFFC37 /* Kalk.Interpreter.swift */; };
+		0EEBF41421C8F3EA00FFFC37 /* Kalk.Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40121C8F3EA00FFFC37 /* Kalk.Interpreter.swift */; };
+		0EEBF41521C8F3EA00FFFC37 /* Kalk.Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40221C8F3EA00FFFC37 /* Kalk.Regex.swift */; };
+		0EEBF41621C8F3EA00FFFC37 /* Kalk.Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40221C8F3EA00FFFC37 /* Kalk.Regex.swift */; };
+		0EEBF41921C8F3EA00FFFC37 /* Kalk.Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40221C8F3EA00FFFC37 /* Kalk.Regex.swift */; };
+		0EEBF41A21C8F3EA00FFFC37 /* Kalk.SSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40321C8F3EA00FFFC37 /* Kalk.SSA.swift */; };
+		0EEBF41B21C8F3EA00FFFC37 /* Kalk.SSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40321C8F3EA00FFFC37 /* Kalk.SSA.swift */; };
+		0EEBF41E21C8F3EA00FFFC37 /* Kalk.SSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40321C8F3EA00FFFC37 /* Kalk.SSA.swift */; };
+		0EEBF41F21C8F3EA00FFFC37 /* Kalk.String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40421C8F3EA00FFFC37 /* Kalk.String.swift */; };
+		0EEBF42021C8F3EA00FFFC37 /* Kalk.String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40421C8F3EA00FFFC37 /* Kalk.String.swift */; };
+		0EEBF42321C8F3EA00FFFC37 /* Kalk.String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40421C8F3EA00FFFC37 /* Kalk.String.swift */; };
+		0EEBF42421C8F3EA00FFFC37 /* Kalk.Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40521C8F3EA00FFFC37 /* Kalk.Lexer.swift */; };
+		0EEBF42521C8F3EA00FFFC37 /* Kalk.Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40521C8F3EA00FFFC37 /* Kalk.Lexer.swift */; };
+		0EEBF42821C8F3EA00FFFC37 /* Kalk.Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF40521C8F3EA00FFFC37 /* Kalk.Lexer.swift */; };
+		0EEBF42A21C8F68B00FFFC37 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF42921C8F68A00FFFC37 /* ArrayExtensions.swift */; };
+		0EEBF42B21C8F68B00FFFC37 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF42921C8F68A00FFFC37 /* ArrayExtensions.swift */; };
+		0EEBF42C21C8F68B00FFFC37 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBF42921C8F68A00FFFC37 /* ArrayExtensions.swift */; };
+		0EF709DC21AD8DED0071145F /* JSONFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF709DB21AD8DED0071145F /* JSONFormat.swift */; };
+		0EF709DD21AD8DED0071145F /* JSONFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF709DB21AD8DED0071145F /* JSONFormat.swift */; };
+		0EF709DF21C54CED0071145F /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF709DE21C54CED0071145F /* RegularExpressions.swift */; };
+		0EF709E021C54CED0071145F /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF709DE21C54CED0071145F /* RegularExpressions.swift */; };
+		0EF709E121C54CED0071145F /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF709DE21C54CED0071145F /* RegularExpressions.swift */; };
+		0EF709E221C54CED0071145F /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF709DE21C54CED0071145F /* RegularExpressions.swift */; };
+		B90E7E751E77C6A000C5BD17 /* Tracery.Eval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E7E741E77C6A000C5BD17 /* Tracery.Eval.swift */; };
+		B90E7E761E77C71F00C5BD17 /* Tracery.Eval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E7E741E77C6A000C5BD17 /* Tracery.Eval.swift */; };
+		B9127FE51E77AEA40063D5A8 /* Tracery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96DBFED1E72B993008623B8 /* Tracery.framework */; };
+		B912802F1E77B0520063D5A8 /* CandidateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFC1E77AF980063D5A8 /* CandidateProvider.swift */; };
+		B91280301E77B0520063D5A8 /* CandidateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFD1E77AF980063D5A8 /* CandidateSelector.swift */; };
+		B91280311E77B0520063D5A8 /* CustomProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFE1E77AF980063D5A8 /* CustomProviders.swift */; };
+		B91280321E77B0520063D5A8 /* CustomSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFF1E77AF980063D5A8 /* CustomSelectors.swift */; };
+		B91280331E77B0520063D5A8 /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280001E77AF980063D5A8 /* ErrorMessages.swift */; };
+		B91280341E77B0520063D5A8 /* ExtensionCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280011E77AF980063D5A8 /* ExtensionCalls.swift */; };
+		B91280351E77B0520063D5A8 /* ExtensionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280021E77AF980063D5A8 /* ExtensionMethod.swift */; };
+		B91280361E77B0520063D5A8 /* ExtensionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280031E77AF980063D5A8 /* ExtensionModifier.swift */; };
+		B91280371E77B0520063D5A8 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280041E77AF980063D5A8 /* Helpers.swift */; };
+		B91280381E77B0520063D5A8 /* Conditionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280051E77AF980063D5A8 /* Conditionals.swift */; };
+		B91280391E77B0520063D5A8 /* Keywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280061E77AF980063D5A8 /* Keywords.swift */; };
+		B912803A1E77B0520063D5A8 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280071E77AF980063D5A8 /* Performance.swift */; };
+		B912803B1E77B0520063D5A8 /* RecursiveRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280081E77AF980063D5A8 /* RecursiveRules.swift */; };
+		B912803C1E77B0520063D5A8 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280091E77AF980063D5A8 /* Rules.swift */; };
+		B912803D1E77B0520063D5A8 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = B912800A1E77AF980063D5A8 /* Tags.swift */; };
+		B912803E1E77B0520063D5A8 /* TraceryioSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B912800B1E77AF980063D5A8 /* TraceryioSamples.swift */; };
+		B912803F1E77B0530063D5A8 /* CandidateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFC1E77AF980063D5A8 /* CandidateProvider.swift */; };
+		B91280401E77B0530063D5A8 /* CandidateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFD1E77AF980063D5A8 /* CandidateSelector.swift */; };
+		B91280411E77B0530063D5A8 /* CustomProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFE1E77AF980063D5A8 /* CustomProviders.swift */; };
+		B91280421E77B0530063D5A8 /* CustomSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9127FFF1E77AF980063D5A8 /* CustomSelectors.swift */; };
+		B91280431E77B0530063D5A8 /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280001E77AF980063D5A8 /* ErrorMessages.swift */; };
+		B91280441E77B0530063D5A8 /* ExtensionCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280011E77AF980063D5A8 /* ExtensionCalls.swift */; };
+		B91280451E77B0530063D5A8 /* ExtensionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280021E77AF980063D5A8 /* ExtensionMethod.swift */; };
+		B91280461E77B0530063D5A8 /* ExtensionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280031E77AF980063D5A8 /* ExtensionModifier.swift */; };
+		B91280471E77B0530063D5A8 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280041E77AF980063D5A8 /* Helpers.swift */; };
+		B91280481E77B0530063D5A8 /* Conditionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280051E77AF980063D5A8 /* Conditionals.swift */; };
+		B91280491E77B0530063D5A8 /* Keywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280061E77AF980063D5A8 /* Keywords.swift */; };
+		B912804A1E77B0530063D5A8 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280071E77AF980063D5A8 /* Performance.swift */; };
+		B912804B1E77B0530063D5A8 /* RecursiveRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280081E77AF980063D5A8 /* RecursiveRules.swift */; };
+		B912804C1E77B0530063D5A8 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280091E77AF980063D5A8 /* Rules.swift */; };
+		B912804D1E77B0530063D5A8 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = B912800A1E77AF980063D5A8 /* Tags.swift */; };
+		B912804E1E77B0530063D5A8 /* TraceryioSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B912800B1E77AF980063D5A8 /* TraceryioSamples.swift */; };
+		B953F8AE1E771704001D6052 /* TagStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975BB7D1E75C91C0076A1EA /* TagStorage.swift */; };
+		B96DBFFD1E72B994008623B8 /* Tracery.h in Headers */ = {isa = PBXBuildFile; fileRef = B96DBFEF1E72B994008623B8 /* Tracery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B96DC0291E72F2B7008623B8 /* CyclicReferenceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC01E1E72F2B7008623B8 /* CyclicReferenceIdentifier.swift */; };
+		B96DC02B1E72F2B7008623B8 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0201E72F2B7008623B8 /* Lexer.swift */; };
+		B96DC02C1E72F2B7008623B8 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0211E72F2B7008623B8 /* Parser.swift */; };
+		B96DC02D1E72F2B7008623B8 /* RuleCandidateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0221E72F2B7008623B8 /* RuleCandidateSelector.swift */; };
+		B96DC02E1E72F2B7008623B8 /* RuleCandidatesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0231E72F2B7008623B8 /* RuleCandidatesProvider.swift */; };
+		B96DC02F1E72F2B7008623B8 /* RuleSelfReferenceIdentifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0241E72F2B7008623B8 /* RuleSelfReferenceIdentifer.swift */; };
+		B96DC0301E72F2B7008623B8 /* RulesetAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0251E72F2B7008623B8 /* RulesetAnalyser.swift */; };
+		B96DC0311E72F2B7008623B8 /* TagOverrideRuleIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0261E72F2B7008623B8 /* TagOverrideRuleIdentifier.swift */; };
+		B96DC0321E72F2B7008623B8 /* Tracery.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0271E72F2B7008623B8 /* Tracery.Logging.swift */; };
+		B96DC0331E72F2B7008623B8 /* Tracery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0281E72F2B7008623B8 /* Tracery.swift */; };
+		B96F75991E84D0CF00C324AB /* WeightedCandidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F75981E84D0CF00C324AB /* WeightedCandidates.swift */; };
+		B96F759A1E84D0CF00C324AB /* WeightedCandidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F75981E84D0CF00C324AB /* WeightedCandidates.swift */; };
+		B975BB7E1E75C91C0076A1EA /* TagStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975BB7D1E75C91C0076A1EA /* TagStorage.swift */; };
+		B99F305C1E869E08005B0808 /* Parser.Gen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F305B1E869E08005B0808 /* Parser.Gen2.swift */; };
+		B99F305D1E869E08005B0808 /* Parser.Gen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F305B1E869E08005B0808 /* Parser.Gen2.swift */; };
+		B9A248E61E817216004D60C9 /* Tracery.Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A248E51E817216004D60C9 /* Tracery.Text.swift */; };
+		B9A248E71E817216004D60C9 /* Tracery.Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A248E51E817216004D60C9 /* Tracery.Text.swift */; };
+		B9A248E91E81859A004D60C9 /* TextFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A248E81E81859A004D60C9 /* TextFormat.swift */; };
+		B9A248EA1E81859A004D60C9 /* TextFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A248E81E81859A004D60C9 /* TextFormat.swift */; };
+		B9A248EE1E818FC0004D60C9 /* fable.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9A248EB1E818FB3004D60C9 /* fable.txt */; };
+		B9A248EF1E818FC0004D60C9 /* fable.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9A248EB1E818FB3004D60C9 /* fable.txt */; };
+		B9B9CC421E882E260080881D /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9CC411E882E260080881D /* Objects.swift */; };
+		B9B9CC431E882E260080881D /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9CC411E882E260080881D /* Objects.swift */; };
+		B9FCA7F51E73D2D20069F8B6 /* CyclicReferenceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC01E1E72F2B7008623B8 /* CyclicReferenceIdentifier.swift */; };
+		B9FCA7F71E73D2D20069F8B6 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0201E72F2B7008623B8 /* Lexer.swift */; };
+		B9FCA7F81E73D2D20069F8B6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0211E72F2B7008623B8 /* Parser.swift */; };
+		B9FCA7F91E73D2D20069F8B6 /* RuleCandidateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0221E72F2B7008623B8 /* RuleCandidateSelector.swift */; };
+		B9FCA7FA1E73D2D20069F8B6 /* RuleCandidatesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0231E72F2B7008623B8 /* RuleCandidatesProvider.swift */; };
+		B9FCA7FB1E73D2D20069F8B6 /* RuleSelfReferenceIdentifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0241E72F2B7008623B8 /* RuleSelfReferenceIdentifer.swift */; };
+		B9FCA7FC1E73D2D20069F8B6 /* RulesetAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0251E72F2B7008623B8 /* RulesetAnalyser.swift */; };
+		B9FCA7FD1E73D2D20069F8B6 /* TagOverrideRuleIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0261E72F2B7008623B8 /* TagOverrideRuleIdentifier.swift */; };
+		B9FCA7FE1E73D2D20069F8B6 /* Tracery.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0271E72F2B7008623B8 /* Tracery.Logging.swift */; };
+		B9FCA7FF1E73D2D20069F8B6 /* Tracery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96DC0281E72F2B7008623B8 /* Tracery.swift */; };
+		B9FCA80C1E73D6FA0069F8B6 /* Tracery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96DBFBC1E72B630008623B8 /* Tracery.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9127FE61E77AEA40063D5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96DBFB31E72B630008623B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96DBFEC1E72B993008623B8;
+			remoteInfo = "Tracery macOS";
+		};
+		B9FCA80D1E73D6FA0069F8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96DBFB31E72B630008623B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96DBFBB1E72B630008623B8;
+			remoteInfo = "Tracery iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EEBF3E221C7D3CA00FFFC37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E48C451220C424C00858E44 /* Kalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kalk.swift; sourceTree = "<group>"; };
+		0E71B8362181CF70008F829A /* RandomSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSource.swift; sourceTree = "<group>"; };
+		0E77FD3721E4F877002D45C8 /* Tracery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracery.h; sourceTree = "<group>"; };
+		0E79B9E6216CA65000359AB3 /* Tracery.JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracery.JSON.swift; sourceTree = "<group>"; };
+		0E79B9EB216CA66600359AB3 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		0E79B9EE216CA6B500359AB3 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		0E79BA1A2171D69200359AB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0E9D3C3C21875B9900C77E64 /* RandomSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSources.swift; sourceTree = "<group>"; };
+		0EEBF3E421C7D3CA00FFFC37 /* ephemeral */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ephemeral; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEBF3E621C7D3CA00FFFC37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0EEBF3FF21C8F3EA00FFFC37 /* Kalk.Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalk.Parser.swift; sourceTree = "<group>"; };
+		0EEBF40021C8F3EA00FFFC37 /* Kalk.Nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalk.Nodes.swift; sourceTree = "<group>"; };
+		0EEBF40121C8F3EA00FFFC37 /* Kalk.Interpreter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalk.Interpreter.swift; sourceTree = "<group>"; };
+		0EEBF40221C8F3EA00FFFC37 /* Kalk.Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalk.Regex.swift; sourceTree = "<group>"; };
+		0EEBF40321C8F3EA00FFFC37 /* Kalk.SSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalk.SSA.swift; sourceTree = "<group>"; };
+		0EEBF40421C8F3EA00FFFC37 /* Kalk.String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalk.String.swift; sourceTree = "<group>"; };
+		0EEBF40521C8F3EA00FFFC37 /* Kalk.Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalk.Lexer.swift; sourceTree = "<group>"; };
+		0EEBF42921C8F68A00FFFC37 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		0EF709DB21AD8DED0071145F /* JSONFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormat.swift; sourceTree = "<group>"; };
+		0EF709DE21C54CED0071145F /* RegularExpressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressions.swift; sourceTree = "<group>"; };
+		B90E7E741E77C6A000C5BD17 /* Tracery.Eval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracery.Eval.swift; sourceTree = "<group>"; };
+		B9127FE01E77AEA40063D5A8 /* Tracery Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tracery Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9127FE41E77AEA40063D5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9127FFC1E77AF980063D5A8 /* CandidateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateProvider.swift; sourceTree = "<group>"; };
+		B9127FFD1E77AF980063D5A8 /* CandidateSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateSelector.swift; sourceTree = "<group>"; };
+		B9127FFE1E77AF980063D5A8 /* CustomProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProviders.swift; sourceTree = "<group>"; };
+		B9127FFF1E77AF980063D5A8 /* CustomSelectors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSelectors.swift; sourceTree = "<group>"; };
+		B91280001E77AF980063D5A8 /* ErrorMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		B91280011E77AF980063D5A8 /* ExtensionCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionCalls.swift; sourceTree = "<group>"; };
+		B91280021E77AF980063D5A8 /* ExtensionMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionMethod.swift; sourceTree = "<group>"; };
+		B91280031E77AF980063D5A8 /* ExtensionModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionModifier.swift; sourceTree = "<group>"; };
+		B91280041E77AF980063D5A8 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B91280051E77AF980063D5A8 /* Conditionals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conditionals.swift; sourceTree = "<group>"; };
+		B91280061E77AF980063D5A8 /* Keywords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keywords.swift; sourceTree = "<group>"; };
+		B91280071E77AF980063D5A8 /* Performance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
+		B91280081E77AF980063D5A8 /* RecursiveRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecursiveRules.swift; sourceTree = "<group>"; };
+		B91280091E77AF980063D5A8 /* Rules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		B912800A1E77AF980063D5A8 /* Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		B912800B1E77AF980063D5A8 /* TraceryioSamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraceryioSamples.swift; sourceTree = "<group>"; };
+		B912802C1E77AFEE0063D5A8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96DBFBC1E72B630008623B8 /* Tracery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tracery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96DBFED1E72B993008623B8 /* Tracery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tracery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96DBFEF1E72B994008623B8 /* Tracery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracery.h; sourceTree = "<group>"; };
+		B96DC01E1E72F2B7008623B8 /* CyclicReferenceIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclicReferenceIdentifier.swift; sourceTree = "<group>"; };
+		B96DC01F1E72F2B7008623B8 /* EmptyRulesetDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyRulesetDetector.swift; sourceTree = "<group>"; };
+		B96DC0201E72F2B7008623B8 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		B96DC0211E72F2B7008623B8 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B96DC0221E72F2B7008623B8 /* RuleCandidateSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleCandidateSelector.swift; sourceTree = "<group>"; };
+		B96DC0231E72F2B7008623B8 /* RuleCandidatesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleCandidatesProvider.swift; sourceTree = "<group>"; };
+		B96DC0241E72F2B7008623B8 /* RuleSelfReferenceIdentifer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleSelfReferenceIdentifer.swift; sourceTree = "<group>"; };
+		B96DC0251E72F2B7008623B8 /* RulesetAnalyser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesetAnalyser.swift; sourceTree = "<group>"; };
+		B96DC0261E72F2B7008623B8 /* TagOverrideRuleIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagOverrideRuleIdentifier.swift; sourceTree = "<group>"; };
+		B96DC0271E72F2B7008623B8 /* Tracery.Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracery.Logging.swift; sourceTree = "<group>"; };
+		B96DC0281E72F2B7008623B8 /* Tracery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracery.swift; sourceTree = "<group>"; };
+		B96F75981E84D0CF00C324AB /* WeightedCandidates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedCandidates.swift; sourceTree = "<group>"; };
+		B975BB7D1E75C91C0076A1EA /* TagStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagStorage.swift; sourceTree = "<group>"; };
+		B99F305B1E869E08005B0808 /* Parser.Gen2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.Gen2.swift; sourceTree = "<group>"; };
+		B9A248E51E817216004D60C9 /* Tracery.Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracery.Text.swift; sourceTree = "<group>"; };
+		B9A248E81E81859A004D60C9 /* TextFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFormat.swift; sourceTree = "<group>"; };
+		B9A248EB1E818FB3004D60C9 /* fable.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fable.txt; sourceTree = "<group>"; };
+		B9B9CC411E882E260080881D /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		B9FCA8071E73D6FA0069F8B6 /* Tracery Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tracery Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FCA80B1E73D6FA0069F8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEBF3E121C7D3CA00FFFC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9127FDD1E77AEA40063D5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9127FE51E77AEA40063D5A8 /* Tracery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DBFB81E72B630008623B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DBFE91E72B993008623B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FCA8041E73D6FA0069F8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FCA80C1E73D6FA0069F8B6 /* Tracery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E71B83921831A63008F829A /* Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				B96DC01E1E72F2B7008623B8 /* CyclicReferenceIdentifier.swift */,
+				B96DC01F1E72F2B7008623B8 /* EmptyRulesetDetector.swift */,
+				B96DC0241E72F2B7008623B8 /* RuleSelfReferenceIdentifer.swift */,
+				B96DC0251E72F2B7008623B8 /* RulesetAnalyser.swift */,
+				B96DC0261E72F2B7008623B8 /* TagOverrideRuleIdentifier.swift */,
+			);
+			path = Analyzer;
+			sourceTree = "<group>";
+		};
+		0E77FD3621E4F877002D45C8 /* Tracery iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0E77FD3721E4F877002D45C8 /* Tracery.h */,
+			);
+			path = "Tracery iOS";
+			sourceTree = SOURCE_ROOT;
+		};
+		0EEBF3E521C7D3CA00FFFC37 /* ephemeral */ = {
+			isa = PBXGroup;
+			children = (
+				0EEBF3E621C7D3CA00FFFC37 /* main.swift */,
+			);
+			path = ephemeral;
+			sourceTree = "<group>";
+		};
+		0EEBF3FE21C8F3E900FFFC37 /* Kalk */ = {
+			isa = PBXGroup;
+			children = (
+				0EEBF42921C8F68A00FFFC37 /* ArrayExtensions.swift */,
+				0EEBF3FF21C8F3EA00FFFC37 /* Kalk.Parser.swift */,
+				0EEBF40021C8F3EA00FFFC37 /* Kalk.Nodes.swift */,
+				0EEBF40121C8F3EA00FFFC37 /* Kalk.Interpreter.swift */,
+				0EEBF40221C8F3EA00FFFC37 /* Kalk.Regex.swift */,
+				0EEBF40321C8F3EA00FFFC37 /* Kalk.SSA.swift */,
+				0EEBF40421C8F3EA00FFFC37 /* Kalk.String.swift */,
+				0EEBF40521C8F3EA00FFFC37 /* Kalk.Lexer.swift */,
+			);
+			path = Kalk;
+			sourceTree = "<group>";
+		};
+		B9127FE11E77AEA40063D5A8 /* Tracery Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B9127FE41E77AEA40063D5A8 /* Info.plist */,
+			);
+			path = "Tracery Tests macOS";
+			sourceTree = "<group>";
+		};
+		B9127FFB1E77AF980063D5A8 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				B9127FFC1E77AF980063D5A8 /* CandidateProvider.swift */,
+				B9127FFD1E77AF980063D5A8 /* CandidateSelector.swift */,
+				B9127FFE1E77AF980063D5A8 /* CustomProviders.swift */,
+				B9127FFF1E77AF980063D5A8 /* CustomSelectors.swift */,
+				B91280001E77AF980063D5A8 /* ErrorMessages.swift */,
+				B91280011E77AF980063D5A8 /* ExtensionCalls.swift */,
+				B91280021E77AF980063D5A8 /* ExtensionMethod.swift */,
+				B91280031E77AF980063D5A8 /* ExtensionModifier.swift */,
+				B91280041E77AF980063D5A8 /* Helpers.swift */,
+				B91280051E77AF980063D5A8 /* Conditionals.swift */,
+				B91280061E77AF980063D5A8 /* Keywords.swift */,
+				B91280071E77AF980063D5A8 /* Performance.swift */,
+				B91280081E77AF980063D5A8 /* RecursiveRules.swift */,
+				B91280091E77AF980063D5A8 /* Rules.swift */,
+				B912800A1E77AF980063D5A8 /* Tags.swift */,
+				B912800B1E77AF980063D5A8 /* TraceryioSamples.swift */,
+				B9A248E81E81859A004D60C9 /* TextFormat.swift */,
+				0EF709DB21AD8DED0071145F /* JSONFormat.swift */,
+				B9A248EB1E818FB3004D60C9 /* fable.txt */,
+				B96F75981E84D0CF00C324AB /* WeightedCandidates.swift */,
+				B9B9CC411E882E260080881D /* Objects.swift */,
+				0E79B9EE216CA6B500359AB3 /* Modifiers.swift */,
+				0E9D3C3C21875B9900C77E64 /* RandomSources.swift */,
+				0E48C451220C424C00858E44 /* Kalk.swift */,
+			);
+			name = Testing;
+			path = ../Testing;
+			sourceTree = "<group>";
+		};
+		B96DBFB21E72B630008623B8 = {
+			isa = PBXGroup;
+			children = (
+				0E79BA1A2171D69200359AB3 /* README.md */,
+				B912802C1E77AFEE0063D5A8 /* Info.plist */,
+				B96DC01D1E72F2B7008623B8 /* Common */,
+				B9127FFB1E77AF980063D5A8 /* Testing */,
+				0E77FD3621E4F877002D45C8 /* Tracery iOS */,
+				B96DBFEE1E72B993008623B8 /* Tracery Mac */,
+				B9FCA8081E73D6FA0069F8B6 /* Tracery Tests iOS */,
+				B9127FE11E77AEA40063D5A8 /* Tracery Tests macOS */,
+				0EEBF3E521C7D3CA00FFFC37 /* ephemeral */,
+				B96DBFBD1E72B630008623B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B96DBFBD1E72B630008623B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B96DBFBC1E72B630008623B8 /* Tracery.framework */,
+				B96DBFED1E72B993008623B8 /* Tracery.framework */,
+				B9FCA8071E73D6FA0069F8B6 /* Tracery Tests iOS.xctest */,
+				B9127FE01E77AEA40063D5A8 /* Tracery Tests macOS.xctest */,
+				0EEBF3E421C7D3CA00FFFC37 /* ephemeral */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96DBFEE1E72B993008623B8 /* Tracery Mac */ = {
+			isa = PBXGroup;
+			children = (
+				B96DBFEF1E72B994008623B8 /* Tracery.h */,
+			);
+			name = "Tracery Mac";
+			path = TraceryMac;
+			sourceTree = "<group>";
+		};
+		B96DC01D1E72F2B7008623B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0E71B83921831A63008F829A /* Analyzer */,
+				0EEBF3FE21C8F3E900FFFC37 /* Kalk */,
+				B96DC0201E72F2B7008623B8 /* Lexer.swift */,
+				0E79B9EB216CA66600359AB3 /* Modifiers.swift */,
+				B99F305B1E869E08005B0808 /* Parser.Gen2.swift */,
+				B96DC0211E72F2B7008623B8 /* Parser.swift */,
+				0E71B8362181CF70008F829A /* RandomSource.swift */,
+				0EF709DE21C54CED0071145F /* RegularExpressions.swift */,
+				B96DC0221E72F2B7008623B8 /* RuleCandidateSelector.swift */,
+				B96DC0231E72F2B7008623B8 /* RuleCandidatesProvider.swift */,
+				B975BB7D1E75C91C0076A1EA /* TagStorage.swift */,
+				B90E7E741E77C6A000C5BD17 /* Tracery.Eval.swift */,
+				B96DC0271E72F2B7008623B8 /* Tracery.Logging.swift */,
+				B96DC0281E72F2B7008623B8 /* Tracery.swift */,
+				B9A248E51E817216004D60C9 /* Tracery.Text.swift */,
+				0E79B9E6216CA65000359AB3 /* Tracery.JSON.swift */,
+			);
+			name = Common;
+			path = ../Common;
+			sourceTree = "<group>";
+		};
+		B9FCA8081E73D6FA0069F8B6 /* Tracery Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B9FCA80B1E73D6FA0069F8B6 /* Info.plist */,
+			);
+			name = "Tracery Tests iOS";
+			path = "Tracery Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B96DBFB91E72B630008623B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E77FD3921E4F893002D45C8 /* Tracery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DBFEA1E72B993008623B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96DBFFD1E72B994008623B8 /* Tracery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EEBF3E321C7D3CA00FFFC37 /* ephemeral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEBF3EA21C7D3CA00FFFC37 /* Build configuration list for PBXNativeTarget "ephemeral" */;
+			buildPhases = (
+				0EEBF3E021C7D3CA00FFFC37 /* Sources */,
+				0EEBF3E121C7D3CA00FFFC37 /* Frameworks */,
+				0EEBF3E221C7D3CA00FFFC37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ephemeral;
+			productName = ephemeral;
+			productReference = 0EEBF3E421C7D3CA00FFFC37 /* ephemeral */;
+			productType = "com.apple.product-type.tool";
+		};
+		B9127FDF1E77AEA40063D5A8 /* Tracery Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9127FE81E77AEA40063D5A8 /* Build configuration list for PBXNativeTarget "Tracery Tests macOS" */;
+			buildPhases = (
+				B9127FDC1E77AEA40063D5A8 /* Sources */,
+				B9127FDD1E77AEA40063D5A8 /* Frameworks */,
+				B9127FDE1E77AEA40063D5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9127FE71E77AEA40063D5A8 /* PBXTargetDependency */,
+			);
+			name = "Tracery Tests macOS";
+			productName = "Tracery Tests macOS";
+			productReference = B9127FE01E77AEA40063D5A8 /* Tracery Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B96DBFBB1E72B630008623B8 /* Tracery iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96DBFD01E72B631008623B8 /* Build configuration list for PBXNativeTarget "Tracery iOS" */;
+			buildPhases = (
+				B96DBFB71E72B630008623B8 /* Sources */,
+				B96DBFB81E72B630008623B8 /* Frameworks */,
+				B96DBFB91E72B630008623B8 /* Headers */,
+				B96DBFBA1E72B630008623B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tracery iOS";
+			productName = Tracery;
+			productReference = B96DBFBC1E72B630008623B8 /* Tracery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B96DBFEC1E72B993008623B8 /* Tracery macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96DBFFE1E72B994008623B8 /* Build configuration list for PBXNativeTarget "Tracery macOS" */;
+			buildPhases = (
+				B96DBFE81E72B993008623B8 /* Sources */,
+				B96DBFE91E72B993008623B8 /* Frameworks */,
+				B96DBFEA1E72B993008623B8 /* Headers */,
+				B96DBFEB1E72B993008623B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tracery macOS";
+			productName = TraceryMac;
+			productReference = B96DBFED1E72B993008623B8 /* Tracery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9FCA8061E73D6FA0069F8B6 /* Tracery Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FCA80F1E73D6FA0069F8B6 /* Build configuration list for PBXNativeTarget "Tracery Tests iOS" */;
+			buildPhases = (
+				B9FCA8031E73D6FA0069F8B6 /* Sources */,
+				B9FCA8041E73D6FA0069F8B6 /* Frameworks */,
+				B9FCA8051E73D6FA0069F8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FCA80E1E73D6FA0069F8B6 /* PBXTargetDependency */,
+			);
+			name = "Tracery Tests iOS";
+			productName = "Tracery Tests";
+			productReference = B9FCA8071E73D6FA0069F8B6 /* Tracery Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B96DBFB31E72B630008623B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Benzi Ahamed";
+				TargetAttributes = {
+					0EEBF3E321C7D3CA00FFFC37 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 3FJFA95D6E;
+						ProvisioningStyle = Automatic;
+					};
+					B9127FDF1E77AEA40063D5A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4QL7N5894Y;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					B96DBFBB1E72B630008623B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					B96DBFEC1E72B993008623B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					B9FCA8061E73D6FA0069F8B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B96DBFB61E72B630008623B8 /* Build configuration list for PBXProject "Tracery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B96DBFB21E72B630008623B8;
+			productRefGroup = B96DBFBD1E72B630008623B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96DBFBB1E72B630008623B8 /* Tracery iOS */,
+				B96DBFEC1E72B993008623B8 /* Tracery macOS */,
+				B9FCA8061E73D6FA0069F8B6 /* Tracery Tests iOS */,
+				B9127FDF1E77AEA40063D5A8 /* Tracery Tests macOS */,
+				0EEBF3E321C7D3CA00FFFC37 /* ephemeral */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9127FDE1E77AEA40063D5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A248EF1E818FC0004D60C9 /* fable.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DBFBA1E72B630008623B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DBFEB1E72B993008623B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FCA8051E73D6FA0069F8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A248EE1E818FC0004D60C9 /* fable.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEBF3E021C7D3CA00FFFC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEBF3FA21C7D3D900FFFC37 /* Tracery.Logging.swift in Sources */,
+				0EEBF40F21C8F3EA00FFFC37 /* Kalk.Nodes.swift in Sources */,
+				0EEBF3F721C7D3D900FFFC37 /* RuleCandidatesProvider.swift in Sources */,
+				0EEBF3FB21C7D3D900FFFC37 /* Tracery.swift in Sources */,
+				0EEBF3ED21C7D3D900FFFC37 /* RuleSelfReferenceIdentifer.swift in Sources */,
+				0EEBF41421C8F3EA00FFFC37 /* Kalk.Interpreter.swift in Sources */,
+				0EEBF3F021C7D3D900FFFC37 /* Lexer.swift in Sources */,
+				0EEBF3F321C7D3D900FFFC37 /* Parser.swift in Sources */,
+				0EEBF3EF21C7D3D900FFFC37 /* TagOverrideRuleIdentifier.swift in Sources */,
+				0EEBF40A21C8F3EA00FFFC37 /* Kalk.Parser.swift in Sources */,
+				0EEBF3E721C7D3CA00FFFC37 /* main.swift in Sources */,
+				0EEBF3F121C7D3D900FFFC37 /* Modifiers.swift in Sources */,
+				0EEBF42321C8F3EA00FFFC37 /* Kalk.String.swift in Sources */,
+				0EEBF3EE21C7D3D900FFFC37 /* RulesetAnalyser.swift in Sources */,
+				0EEBF41E21C8F3EA00FFFC37 /* Kalk.SSA.swift in Sources */,
+				0EEBF3EB21C7D3D900FFFC37 /* CyclicReferenceIdentifier.swift in Sources */,
+				0EEBF3F821C7D3D900FFFC37 /* TagStorage.swift in Sources */,
+				0EEBF3F521C7D3D900FFFC37 /* RegularExpressions.swift in Sources */,
+				0EEBF3F621C7D3D900FFFC37 /* RuleCandidateSelector.swift in Sources */,
+				0EEBF3EC21C7D3D900FFFC37 /* EmptyRulesetDetector.swift in Sources */,
+				0EEBF42821C8F3EA00FFFC37 /* Kalk.Lexer.swift in Sources */,
+				0EEBF3FC21C7D3D900FFFC37 /* Tracery.Text.swift in Sources */,
+				0EEBF3F921C7D3D900FFFC37 /* Tracery.Eval.swift in Sources */,
+				0EEBF42C21C8F68B00FFFC37 /* ArrayExtensions.swift in Sources */,
+				0EEBF3F421C7D3D900FFFC37 /* RandomSource.swift in Sources */,
+				0EEBF3F221C7D3D900FFFC37 /* Parser.Gen2.swift in Sources */,
+				0EEBF3FD21C7D3D900FFFC37 /* Tracery.JSON.swift in Sources */,
+				0EEBF41921C8F3EA00FFFC37 /* Kalk.Regex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9127FDC1E77AEA40063D5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91280401E77B0530063D5A8 /* CandidateSelector.swift in Sources */,
+				B9A248EA1E81859A004D60C9 /* TextFormat.swift in Sources */,
+				0E9D3C3E21875B9900C77E64 /* RandomSources.swift in Sources */,
+				B91280441E77B0530063D5A8 /* ExtensionCalls.swift in Sources */,
+				B912803F1E77B0530063D5A8 /* CandidateProvider.swift in Sources */,
+				0E79B9F2216CA76700359AB3 /* Modifiers.swift in Sources */,
+				0EF709E221C54CED0071145F /* RegularExpressions.swift in Sources */,
+				B91280411E77B0530063D5A8 /* CustomProviders.swift in Sources */,
+				B91280481E77B0530063D5A8 /* Conditionals.swift in Sources */,
+				0EF709DD21AD8DED0071145F /* JSONFormat.swift in Sources */,
+				B912804C1E77B0530063D5A8 /* Rules.swift in Sources */,
+				B91280471E77B0530063D5A8 /* Helpers.swift in Sources */,
+				B912804A1E77B0530063D5A8 /* Performance.swift in Sources */,
+				B912804E1E77B0530063D5A8 /* TraceryioSamples.swift in Sources */,
+				B9B9CC431E882E260080881D /* Objects.swift in Sources */,
+				B912804D1E77B0530063D5A8 /* Tags.swift in Sources */,
+				0E48C453220C424C00858E44 /* Kalk.swift in Sources */,
+				B91280451E77B0530063D5A8 /* ExtensionMethod.swift in Sources */,
+				B91280431E77B0530063D5A8 /* ErrorMessages.swift in Sources */,
+				B91280461E77B0530063D5A8 /* ExtensionModifier.swift in Sources */,
+				B96F759A1E84D0CF00C324AB /* WeightedCandidates.swift in Sources */,
+				B912804B1E77B0530063D5A8 /* RecursiveRules.swift in Sources */,
+				B91280421E77B0530063D5A8 /* CustomSelectors.swift in Sources */,
+				B91280491E77B0530063D5A8 /* Keywords.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DBFB71E72B630008623B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B975BB7E1E75C91C0076A1EA /* TagStorage.swift in Sources */,
+				0E71B8372181CF70008F829A /* RandomSource.swift in Sources */,
+				B96DC0331E72F2B7008623B8 /* Tracery.swift in Sources */,
+				B9A248E61E817216004D60C9 /* Tracery.Text.swift in Sources */,
+				B96DC02C1E72F2B7008623B8 /* Parser.swift in Sources */,
+				B96DC02F1E72F2B7008623B8 /* RuleSelfReferenceIdentifer.swift in Sources */,
+				B96DC0301E72F2B7008623B8 /* RulesetAnalyser.swift in Sources */,
+				B96DC02E1E72F2B7008623B8 /* RuleCandidatesProvider.swift in Sources */,
+				0E9D3C38218758CC00C77E64 /* EmptyRulesetDetector.swift in Sources */,
+				0EEBF41A21C8F3EA00FFFC37 /* Kalk.SSA.swift in Sources */,
+				B96DC0321E72F2B7008623B8 /* Tracery.Logging.swift in Sources */,
+				B90E7E751E77C6A000C5BD17 /* Tracery.Eval.swift in Sources */,
+				B96DC02D1E72F2B7008623B8 /* RuleCandidateSelector.swift in Sources */,
+				0E79B9EC216CA66600359AB3 /* Modifiers.swift in Sources */,
+				B96DC02B1E72F2B7008623B8 /* Lexer.swift in Sources */,
+				0EEBF41521C8F3EA00FFFC37 /* Kalk.Regex.swift in Sources */,
+				B96DC0311E72F2B7008623B8 /* TagOverrideRuleIdentifier.swift in Sources */,
+				B96DC0291E72F2B7008623B8 /* CyclicReferenceIdentifier.swift in Sources */,
+				0EEBF41021C8F3EA00FFFC37 /* Kalk.Interpreter.swift in Sources */,
+				0EEBF41F21C8F3EA00FFFC37 /* Kalk.String.swift in Sources */,
+				B99F305C1E869E08005B0808 /* Parser.Gen2.swift in Sources */,
+				0EEBF40B21C8F3EA00FFFC37 /* Kalk.Nodes.swift in Sources */,
+				0EEBF42421C8F3EA00FFFC37 /* Kalk.Lexer.swift in Sources */,
+				0EF709DF21C54CED0071145F /* RegularExpressions.swift in Sources */,
+				0EEBF40621C8F3EA00FFFC37 /* Kalk.Parser.swift in Sources */,
+				0EEBF42A21C8F68B00FFFC37 /* ArrayExtensions.swift in Sources */,
+				0E79B9E7216CA65000359AB3 /* Tracery.JSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DBFE81E72B993008623B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B953F8AE1E771704001D6052 /* TagStorage.swift in Sources */,
+				0E71B8382181D220008F829A /* RandomSource.swift in Sources */,
+				B9FCA7F51E73D2D20069F8B6 /* CyclicReferenceIdentifier.swift in Sources */,
+				B9A248E71E817216004D60C9 /* Tracery.Text.swift in Sources */,
+				B9FCA7F71E73D2D20069F8B6 /* Lexer.swift in Sources */,
+				B9FCA7F81E73D2D20069F8B6 /* Parser.swift in Sources */,
+				B9FCA7F91E73D2D20069F8B6 /* RuleCandidateSelector.swift in Sources */,
+				B9FCA7FA1E73D2D20069F8B6 /* RuleCandidatesProvider.swift in Sources */,
+				0E9D3C39218758CD00C77E64 /* EmptyRulesetDetector.swift in Sources */,
+				0EEBF41B21C8F3EA00FFFC37 /* Kalk.SSA.swift in Sources */,
+				B9FCA7FB1E73D2D20069F8B6 /* RuleSelfReferenceIdentifer.swift in Sources */,
+				B90E7E761E77C71F00C5BD17 /* Tracery.Eval.swift in Sources */,
+				B9FCA7FC1E73D2D20069F8B6 /* RulesetAnalyser.swift in Sources */,
+				0E79B9ED216CA66600359AB3 /* Modifiers.swift in Sources */,
+				B9FCA7FD1E73D2D20069F8B6 /* TagOverrideRuleIdentifier.swift in Sources */,
+				0EEBF41621C8F3EA00FFFC37 /* Kalk.Regex.swift in Sources */,
+				B9FCA7FE1E73D2D20069F8B6 /* Tracery.Logging.swift in Sources */,
+				B9FCA7FF1E73D2D20069F8B6 /* Tracery.swift in Sources */,
+				0EEBF41121C8F3EA00FFFC37 /* Kalk.Interpreter.swift in Sources */,
+				0EEBF42021C8F3EA00FFFC37 /* Kalk.String.swift in Sources */,
+				B99F305D1E869E08005B0808 /* Parser.Gen2.swift in Sources */,
+				0EEBF40C21C8F3EA00FFFC37 /* Kalk.Nodes.swift in Sources */,
+				0EEBF42521C8F3EA00FFFC37 /* Kalk.Lexer.swift in Sources */,
+				0EF709E021C54CED0071145F /* RegularExpressions.swift in Sources */,
+				0EEBF40721C8F3EA00FFFC37 /* Kalk.Parser.swift in Sources */,
+				0EEBF42B21C8F68B00FFFC37 /* ArrayExtensions.swift in Sources */,
+				0E79B9E8216CA65000359AB3 /* Tracery.JSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FCA8031E73D6FA0069F8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91280301E77B0520063D5A8 /* CandidateSelector.swift in Sources */,
+				B9A248E91E81859A004D60C9 /* TextFormat.swift in Sources */,
+				0E9D3C3D21875B9900C77E64 /* RandomSources.swift in Sources */,
+				B91280341E77B0520063D5A8 /* ExtensionCalls.swift in Sources */,
+				B912802F1E77B0520063D5A8 /* CandidateProvider.swift in Sources */,
+				0E79B9F1216CA76600359AB3 /* Modifiers.swift in Sources */,
+				0EF709E121C54CED0071145F /* RegularExpressions.swift in Sources */,
+				B91280311E77B0520063D5A8 /* CustomProviders.swift in Sources */,
+				B91280381E77B0520063D5A8 /* Conditionals.swift in Sources */,
+				0EF709DC21AD8DED0071145F /* JSONFormat.swift in Sources */,
+				B912803C1E77B0520063D5A8 /* Rules.swift in Sources */,
+				B91280371E77B0520063D5A8 /* Helpers.swift in Sources */,
+				B912803A1E77B0520063D5A8 /* Performance.swift in Sources */,
+				B912803E1E77B0520063D5A8 /* TraceryioSamples.swift in Sources */,
+				B9B9CC421E882E260080881D /* Objects.swift in Sources */,
+				B912803D1E77B0520063D5A8 /* Tags.swift in Sources */,
+				0E48C452220C424C00858E44 /* Kalk.swift in Sources */,
+				B91280351E77B0520063D5A8 /* ExtensionMethod.swift in Sources */,
+				B91280331E77B0520063D5A8 /* ErrorMessages.swift in Sources */,
+				B91280361E77B0520063D5A8 /* ExtensionModifier.swift in Sources */,
+				B96F75991E84D0CF00C324AB /* WeightedCandidates.swift in Sources */,
+				B912803B1E77B0520063D5A8 /* RecursiveRules.swift in Sources */,
+				B91280321E77B0520063D5A8 /* CustomSelectors.swift in Sources */,
+				B91280391E77B0520063D5A8 /* Keywords.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9127FE71E77AEA40063D5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96DBFEC1E72B993008623B8 /* Tracery macOS */;
+			targetProxy = B9127FE61E77AEA40063D5A8 /* PBXContainerItemProxy */;
+		};
+		B9FCA80E1E73D6FA0069F8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96DBFBB1E72B630008623B8 /* Tracery iOS */;
+			targetProxy = B9FCA80D1E73D6FA0069F8B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EEBF3E821C7D3CA00FFFC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FJFA95D6E;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0EEBF3E921C7D3CA00FFFC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FJFA95D6E;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B9127FE91E77AEA40063D5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4QL7N5894Y;
+				INFOPLIST_FILE = "Tracery Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.folded-paper.Tracery-Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9127FEA1E77AEA40063D5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4QL7N5894Y;
+				INFOPLIST_FILE = "Tracery Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.folded-paper.Tracery-Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B96DBFCE1E72B631008623B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B96DBFCF1E72B631008623B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B96DBFD11E72B631008623B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(PROJECT_DIR)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.brokenrul.Tracery;
+				PRODUCT_MODULE_NAME = Tracery;
+				PRODUCT_NAME = Tracery;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B96DBFD21E72B631008623B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(PROJECT_DIR)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.brokenrul.Tracery;
+				PRODUCT_MODULE_NAME = Tracery;
+				PRODUCT_NAME = Tracery;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B96DBFFF1E72B994008623B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(PROJECT_DIR)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.folded-paper.Tracery";
+				PRODUCT_MODULE_NAME = Tracery;
+				PRODUCT_NAME = Tracery;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B96DC0001E72B994008623B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(PROJECT_DIR)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.folded-paper.Tracery";
+				PRODUCT_MODULE_NAME = Tracery;
+				PRODUCT_NAME = Tracery;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B9FCA8101E73D6FA0069F8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Tracery Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.folded-paper.Tracery-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9FCA8111E73D6FA0069F8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Tracery Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.folded-paper.Tracery-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEBF3EA21C7D3CA00FFFC37 /* Build configuration list for PBXNativeTarget "ephemeral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEBF3E821C7D3CA00FFFC37 /* Debug */,
+				0EEBF3E921C7D3CA00FFFC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9127FE81E77AEA40063D5A8 /* Build configuration list for PBXNativeTarget "Tracery Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9127FE91E77AEA40063D5A8 /* Debug */,
+				B9127FEA1E77AEA40063D5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96DBFB61E72B630008623B8 /* Build configuration list for PBXProject "Tracery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96DBFCE1E72B631008623B8 /* Debug */,
+				B96DBFCF1E72B631008623B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96DBFD01E72B631008623B8 /* Build configuration list for PBXNativeTarget "Tracery iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96DBFD11E72B631008623B8 /* Debug */,
+				B96DBFD21E72B631008623B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96DBFFE1E72B994008623B8 /* Build configuration list for PBXNativeTarget "Tracery macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96DBFFF1E72B994008623B8 /* Debug */,
+				B96DC0001E72B994008623B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FCA80F1E73D6FA0069F8B6 /* Build configuration list for PBXNativeTarget "Tracery Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FCA8101E73D6FA0069F8B6 /* Debug */,
+				B9FCA8111E73D6FA0069F8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B96DBFB31E72B630008623B8 /* Project object */;
+}
