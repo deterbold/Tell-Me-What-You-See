@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4266171223EB6832008CB062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266171123EB6832008CB062 /* AppDelegate.swift */; };
-		4266171423EB6832008CB062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266171323EB6832008CB062 /* SceneDelegate.swift */; };
 		4266171623EB6832008CB062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266171523EB6832008CB062 /* ViewController.swift */; };
 		4266171923EB6832008CB062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266171723EB6832008CB062 /* Main.storyboard */; };
 		4266171B23EB6833008CB062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4266171A23EB6833008CB062 /* Assets.xcassets */; };
 		4266171E23EB6833008CB062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266171C23EB6833008CB062 /* LaunchScreen.storyboard */; };
 		4266172723EB6946008CB062 /* Tracery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4266172623EB6946008CB062 /* Tracery.framework */; };
 		4266172823EB6946008CB062 /* Tracery.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4266172623EB6946008CB062 /* Tracery.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		49CDB8F723EC1BA5008010FE /* ResizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB8F123EC1BA4008010FE /* ResizeImage.swift */; };
+		49CDB8F823EC1BA5008010FE /* StartsWIthVowel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB8F223EC1BA4008010FE /* StartsWIthVowel.swift */; };
+		49CDB8F923EC1BA5008010FE /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB8F323EC1BA5008010FE /* UIView_Ext.swift */; };
+		49CDB8FA23EC1BA5008010FE /* AdjustFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB8F423EC1BA5008010FE /* AdjustFont.swift */; };
+		49CDB8FB23EC1BA5008010FE /* LabelAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB8F523EC1BA5008010FE /* LabelAnimation.swift */; };
+		49CDB8FC23EC1BA5008010FE /* CharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB8F623EC1BA5008010FE /* CharacterExtension.swift */; };
+		49CDB8FE23EC1BFF008010FE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB8FD23EC1BFF008010FE /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +40,6 @@
 /* Begin PBXFileReference section */
 		4266170E23EB6832008CB062 /* Tell Me What You See.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tell Me What You See.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4266171123EB6832008CB062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4266171323EB6832008CB062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4266171523EB6832008CB062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4266171823EB6832008CB062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4266171A23EB6833008CB062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +47,13 @@
 		4266171F23EB6833008CB062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4266172623EB6946008CB062 /* Tracery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tracery.framework; path = Carthage/Build/iOS/Tracery.framework; sourceTree = "<group>"; };
 		4266172C23EB6A13008CB062 /* Tracery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tracery.framework; path = Carthage/Build/iOS/Tracery.framework; sourceTree = "<group>"; };
+		49CDB8F123EC1BA4008010FE /* ResizeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeImage.swift; sourceTree = "<group>"; };
+		49CDB8F223EC1BA4008010FE /* StartsWIthVowel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartsWIthVowel.swift; sourceTree = "<group>"; };
+		49CDB8F323EC1BA5008010FE /* UIView_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Ext.swift; sourceTree = "<group>"; };
+		49CDB8F423EC1BA5008010FE /* AdjustFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustFont.swift; sourceTree = "<group>"; };
+		49CDB8F523EC1BA5008010FE /* LabelAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelAnimation.swift; sourceTree = "<group>"; };
+		49CDB8F623EC1BA5008010FE /* CharacterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtension.swift; sourceTree = "<group>"; };
+		49CDB8FD23EC1BFF008010FE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +89,9 @@
 		4266171023EB6832008CB062 /* Tell Me What You See */ = {
 			isa = PBXGroup;
 			children = (
+				49CDB8FD23EC1BFF008010FE /* Resnet50.mlmodel */,
+				49CDB8F023EC1B8B008010FE /* Extensions */,
 				4266171123EB6832008CB062 /* AppDelegate.swift */,
-				4266171323EB6832008CB062 /* SceneDelegate.swift */,
 				4266171523EB6832008CB062 /* ViewController.swift */,
 				4266171723EB6832008CB062 /* Main.storyboard */,
 				4266171A23EB6833008CB062 /* Assets.xcassets */,
@@ -94,6 +107,19 @@
 				4266172623EB6946008CB062 /* Tracery.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49CDB8F023EC1B8B008010FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49CDB8F423EC1BA5008010FE /* AdjustFont.swift */,
+				49CDB8F623EC1BA5008010FE /* CharacterExtension.swift */,
+				49CDB8F523EC1BA5008010FE /* LabelAnimation.swift */,
+				49CDB8F123EC1BA4008010FE /* ResizeImage.swift */,
+				49CDB8F223EC1BA4008010FE /* StartsWIthVowel.swift */,
+				49CDB8F323EC1BA5008010FE /* UIView_Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49CDB8FE23EC1BFF008010FE /* Resnet50.mlmodel in Sources */,
+				49CDB8F923EC1BA5008010FE /* UIView_Ext.swift in Sources */,
+				49CDB8FA23EC1BA5008010FE /* AdjustFont.swift in Sources */,
 				4266171623EB6832008CB062 /* ViewController.swift in Sources */,
+				49CDB8FC23EC1BA5008010FE /* CharacterExtension.swift in Sources */,
+				49CDB8F723EC1BA5008010FE /* ResizeImage.swift in Sources */,
 				4266171223EB6832008CB062 /* AppDelegate.swift in Sources */,
-				4266171423EB6832008CB062 /* SceneDelegate.swift in Sources */,
+				49CDB8F823EC1BA5008010FE /* StartsWIthVowel.swift in Sources */,
+				49CDB8FB23EC1BA5008010FE /* LabelAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
